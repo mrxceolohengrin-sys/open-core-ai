@@ -1,10 +1,8 @@
 {
-  "name": "OpenCore AI",
+  "name": "OpenCore Stable",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "postCreateCommand": "bash .devcontainer/setup.sh",
-
-  "postStartCommand": "bash .devcontainer/start.sh",
 
   "forwardPorts": [11434]
 }
