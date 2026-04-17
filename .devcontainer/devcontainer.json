@@ -1,6 +1,7 @@
 {
   "name": "OpenCore AI",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "sudo apt update && sudo apt install -y curl zstd",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "postStartCommand": "ollama serve",
   "forwardPorts": [11434]
 }
