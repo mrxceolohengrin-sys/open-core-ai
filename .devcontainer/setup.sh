@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt update
+sudo apt install -y curl zstd
+
 echo "Installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
 
